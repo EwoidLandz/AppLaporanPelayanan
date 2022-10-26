@@ -1,0 +1,7 @@
+1. Mengaktifkan mysql diterminal cmd -> mysql -u root -p
+2. Menampilkan semua databse -> show databases;
+3. Membuat database -> create database database_name;
+4. Menggunakan database -> use database_name;
+5. Melihat seluruh isi table dalam database -> show tables;
+6. Membuat table serta kolom -> create table table_name
+7. Melihat deskripsi tabel -> desc nama_table
