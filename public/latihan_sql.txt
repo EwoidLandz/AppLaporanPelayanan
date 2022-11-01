@@ -3,5 +3,9 @@
 3. Membuat database -> create database database_name;
 4. Menggunakan database -> use database_name;
 5. Melihat seluruh isi table dalam database -> show tables;
-6. Membuat table serta kolom -> create table table_name
-7. Melihat deskripsi tabel -> desc nama_table
+6. Membuat table serta kolom -> create table table_name (nama_kolom(nilai));
+7. Melihat semua column didalam table -> select * from nama_table;
+8. Memberi nilai pada setiap column didalam table
+	-> insert into nama_table(nama_column1, nama_column2) values (nilai_column1, nilai_culomn2);
+9. Melihat semua nilai yang dimiliki pada table -> select * from nama_table;
+10. Menambahkan column didalam table
