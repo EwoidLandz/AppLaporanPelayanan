@@ -9,3 +9,11 @@
 	-> insert into nama_table(nama_column1, nama_column2) values (nilai_column1, nilai_culomn2);
 9. Melihat semua nilai yang dimiliki pada table -> select * from nama_table;
 10. Menambahkan column didalam table
+
+Latihan SQL Part 2
+Date	: 07-11-22	
+1. Menampilkan semua table -> show tables;
+2. Menambahkan column dalam table -> alter table nama_table add column nama_column(nilai_column) sifat column;
+3. Mengupdate nilai pada column table -> update nama_table set nama_column = nilai_column kondisi;
+4. Mengupdate nilai lebih dari 1 column pada table -> update nama_table set nama_column1="nilai1",nama_column2="nilai2" kondisi
+5. Mengganti nama column -> alter table nama_table change nama_lama nama_baru varchar(225) not null;
